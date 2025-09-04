@@ -34,6 +34,7 @@ This project helps you keep your Mac clean from caches, logs, and browser junk a
    cd ~/Downloads/cleanmac-install
 
 3. Run the installer:
+   
    ```bash
      chmod +x install_cleanmac.command
      ./install_cleanmac.command
@@ -46,6 +47,7 @@ This project helps you keep your Mac clean from caches, logs, and browser junk a
   Load the job into launchd so it runs every 2 weeks automatically
   
 4. ⚡ Manual Run
+   
    ```bash
       cleanmac
 5. 🔄 Schedule Details
@@ -55,14 +57,16 @@ This project helps you keep your Mac clean from caches, logs, and browser junk a
     - If your Mac is off, it runs at the next login
   
 6. 🔔 Notifications
+   
     After each run, the script prints logs to your terminal (when run manually).
     You can also check system logs for automated runs:
    ```bash
    log show --predicate 'process == "cleanmac"' --last 1d
- 7. ❓ FAQ
+7. ❓ FAQ
+
     Q: Will it delete my personal files?
     A: No — it only removes caches, logs, temp files, and browser junk.
-
+   
     Q: Can I change the schedule?
     A: Yes — edit ~/Library/LaunchAgents/com.user.cleanmac.plist and adjust the <StartCalendarInterval> values.
 
@@ -72,6 +76,7 @@ This project helps you keep your Mac clean from caches, logs, and browser junk a
       rm ~/Library/LaunchAgents/com.user.cleanmac.plist
       sudo rm /usr/local/bin/cleanmac
  
-  8. 📜 License
-        MIT License.
-        Use at your own risk — always back up your data before running system scripts.
+8. 📜 License
+   
+   MIT License.
+   Use at your own risk — always back up your data before running system scripts.
