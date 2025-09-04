@@ -71,6 +71,6 @@ This project helps you keep your Mac clean from caches, logs, and browser junk a
       launchctl unload ~/Library/LaunchAgents/com.user.cleanmac.plist
       rm ~/Library/LaunchAgents/com.user.cleanmac.plist
       sudo rm /usr/local/bin/cleanmac
-8.📜 License
+  8. 📜 License
   MIT License.
   Use at your own risk — always back up your data before running system scripts.
