@@ -12,7 +12,7 @@ This project helps you keep your Mac clean from caches, logs, and browser junk a
 - Cleanup **Xcode** build data, DerivedData, device support, and archives  
 - Remove old **iOS backups**  
 - Run **Homebrew cleanup** (if installed)  
-- Clean **Microsoft Edge, Google Chrome, and Safari** caches, cookies, and temporary data  
+- Clean **Microsoft Edge, Google Chrome, and Safari** caches, and temporary data  
 - Schedule cleanup **every 2 weeks automatically** using `launchd`  
 
 ---
